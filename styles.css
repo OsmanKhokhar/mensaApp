@@ -7,6 +7,10 @@
     color:var(--pinkColor);
 }
 
+.GrayColorBackground {
+    background-color: var(--grayColor);
+}
+
 .EssensAnzeigeContainer {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +20,7 @@
     margin-right: auto;
 }
 
+/* Zwei untereinander */
 .HauptGerichteBox {
     display:block;
     width: 618px;
@@ -27,6 +32,7 @@
     margin-bottom:14px;
 }
 
+/* Zwei nebeneinander */
 .ZusatzBox {
     display: block;
     width: 304px;
