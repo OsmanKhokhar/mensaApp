@@ -9,6 +9,7 @@
 
 .EssensAnzeigeContainer {
     display: flex;
+    flex-wrap: wrap;
     width: 618px;
     min-height: 700px;
     margin-left: auto;
