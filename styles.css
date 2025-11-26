@@ -1,8 +1,6 @@
 :root {
     --pinkColor: #C72A67;
     --grayColor: #1E2428;
-
-    --card-padding: 16px;
 }
 
 .PinkText {
@@ -18,39 +16,30 @@
 }
 
 .EssensAnzeigeContainer {
-display: flex;
-flex-wrap: wrap;
-width: 618px;
-min-height: 700px;
-margin-left: auto;
-margin-right: auto;
-gap: 14px;
-align-content: flex-start;
-padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 618px;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 /* Zwei untereinander */
 .HauptGerichteBox {
-flex: 0 0 100%;
-height: 172px;
-background-color: var(--grayColor);
-border-radius: 10px;
-padding: var(--card-padding);
-display:flex;
-align-items:center;
-justify-content:space-between;
+    width: 618px;
+    height: 172px;
+    background-color: var(--grayColor);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:14px;
 }
-
 
 /* Zwei nebeneinander */
 .ZusatzBox {
-flex: 0 0 304px;
-height: 232px;
-background-color: var(--grayColor);
-border-radius: 10px;
-padding: var(--card-padding);
-display:flex;
-flex-direction:column;
-justify-content:space-between;
+    width: 304px;
+    height: 232px;
+    background-color: var(--grayColor);
+    border-radius: 10px;
+    margin-bottom:14px;
 }
