@@ -44,9 +44,11 @@
 }
 
 .ZusatzBox.links {
-    margin-right:0px;
+    margin-right:5px;
+    margin-left: auto;
 }
 
 .ZusatzBox.rechts {
-    margin-left:0px;
+    margin-left:5px;
+    margin-right: auto;
 }
