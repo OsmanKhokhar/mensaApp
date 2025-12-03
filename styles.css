@@ -41,6 +41,11 @@
         margin-top:10px;
         margin-left:15px;
     }
+
+    > .MenueName {
+       color:white;
+       margin-left:15px;
+    }
 }
 
 /* Zwei nebeneinander */
