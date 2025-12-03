@@ -60,7 +60,7 @@
         margin-top: 20px;
         width:100%;
 
-       > img { max-height: 10px;} 
+       > div > img { max-height: 50px;} 
     }
 }
 
