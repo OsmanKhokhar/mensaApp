@@ -36,8 +36,10 @@
 
     > .Title {
         font-weight: bold;
+        font-size: 20px;
         color:white;
         margin-top:5px;
+        margin-left:5px;
     }
 }
 
