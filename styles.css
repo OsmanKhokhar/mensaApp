@@ -60,6 +60,7 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
@@ -70,7 +71,12 @@
         text-decoration: none;    
     }
 
-    > Current {
+    > .Current {
         color:white;
+    }
+
+    div {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
